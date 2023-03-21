@@ -173,6 +173,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/jordancalhoun/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-javascript"] = {
+    loaded = true,
+    path = "/Users/jordancalhoun/.local/share/nvim/site/pack/packer/start/vim-javascript",
+    url = "https://github.com/pangloss/vim-javascript"
+  },
+  ["vim-svelte"] = {
+    loaded = true,
+    path = "/Users/jordancalhoun/.local/share/nvim/site/pack/packer/start/vim-svelte",
+    url = "https://github.com/evanleck/vim-svelte"
   }
 }
 

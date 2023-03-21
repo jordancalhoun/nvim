@@ -17,6 +17,12 @@ return require('packer').startup(function(use)
 
   vim.cmd('colorscheme rose-pine')
 
+  -- Svelte 
+  use('evanleck/vim-svelte')
+
+  -- Web dev in general
+  use('sheerun/vim-polyglot')
+  
   use('nvim-treesitter/nvim-treesitter', {run =  ':TSUpdate'})
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
