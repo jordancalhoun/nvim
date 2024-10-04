@@ -22,7 +22,7 @@ return {
           "stimulus_ls",
           "ts_ls",
           "rubocop",
-          "svelte"
+          "svelte",
         }
       })
     end
